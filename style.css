@@ -45,7 +45,7 @@ aside {
   overflow: none;
   /* z-index: 1; */
   text-align: center;
-  padding: 0;
+  padding: 12px;
 }
 aside img {
   filter: grayscale(100%) contrast(50%) brightness(100%);
@@ -57,7 +57,7 @@ aside img {
 }
 aside a {
   display: block;
-  padding: 15px 0;
+  padding: 20px 0;
   color: white;
   transition: all 0.35s;
   text-transform: uppercase;
@@ -79,7 +79,7 @@ aside nav a:nth-child(2):hover{
   color: #222;
 }
 main {
-  /* max-width: 980px; */
+  max-width: 980px;
   width: 930px;
   background: #000;
   margin-left: 10%;
@@ -117,12 +117,14 @@ header h4 {
   text-transform: uppercase;
   text-decoration: line-through;
   padding-bottom: 10px;
-  margin: 100px 0 0 0;
+  padding-top: 10px;
+  margin-top: 100px 0 0 0;
   letter-spacing: 4px;
   
 }
 .about p{
   color: #b2b2b2;
+  
   
 }
 .about span{
@@ -136,7 +138,7 @@ header h4 {
 .container{
   width: 100%;
   background-color: #b2b2b2;
-
+  
 }
 .container p{
   width: 100%;
@@ -277,6 +279,7 @@ input{
     width: 100%;
     margin: 0 auto;
     padding: 12px 25px;
+    
   }
 
   header{
@@ -298,25 +301,31 @@ input{
   display: flex;
   justify-content: space-around;
   background: rgba(0, 0, 0,0.8);
-  /* padding: 20px; */
+  padding: 20px;
   z-index: 1;
- 
+
+}
+.about p{
+  margin-right: 2px;
+}
+form input{
+  width: 200%;
 
 }
 .mobile-nav a{
   width: 100%;
   color: #b2b2b2;
   text-transform: uppercase;
-  font-size: 0.0875em;
+  font-size: 8px;
   letter-spacing: 2px;
   text-align: center;
   padding: 10px 10px;
   transition: all 0.35s;
   
 }
-mobile-nav a:hover{
-  background: #b2b2b2;
-  color: #222;
+.mobile-nav a:hover{
+  background: #222;
+  color: #b2b2b2;
 
 }
   
@@ -324,7 +333,6 @@ mobile-nav a:hover{
   .mobile-nav{
     display: none;
   }
-
- 
-}
+  
   }
+}
