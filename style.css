@@ -57,7 +57,7 @@ aside img {
 }
 aside a {
   display: block;
-  padding: 20px 0;
+  padding: 40px 0;
   color: white;
   transition: all 0.35s;
   text-transform: uppercase;
@@ -80,11 +80,11 @@ aside nav a:nth-child(2):hover{
 }
 main {
   max-width: 980px;
-  width: 930px;
   background: #000;
   margin-left: 10%;
   padding: 12px 50px 12px 50px;
   display: auto;
+  
   
   
 }
@@ -111,6 +111,7 @@ header h4 {
   line-height: 1.5em;
   letter-spacing: 1px;
   font-weight: 300;
+  padding: 8%;
 }
 .about h2,.folio h2,.contact h2{
   font-weight: 300;
@@ -263,11 +264,14 @@ input{
 @media (max-width: 768px){
   .row-halves{
     display: block;
+   
   }
  .row-halves .col{
     width: 100%;
     margin: 0 0 10px 0;
+  
   }
+  
 }
 
   @media (max-width: 601px){
@@ -308,10 +312,14 @@ input{
 .about p{
   margin-right: 2px;
 }
-form input{
-  width: 200%;
+form input#name,#email,#message{
+  width: 100%;
 
 }
+input#message{
+  width: 9%;
+}
+
 .mobile-nav a{
   width: 100%;
   color: #b2b2b2;
