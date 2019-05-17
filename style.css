@@ -312,14 +312,16 @@ input{
 .about p{
   margin-right: 2px;
 }
-form input#name,#email,#message{
+form input#name,#email{
   width: 100%;
 
 }
-input#message{
+#message{
   width: 9%;
 }
-
+/* #sumbit{
+  width: 100%;
+} */
 .mobile-nav a{
   width: 100%;
   color: #b2b2b2;
