@@ -33,7 +33,7 @@ img {
 
 }
 .folio img{
-  filter: grayscale(100%)
+  filter: grayscal 
 }
 aside {
   position: fixed;
@@ -150,7 +150,7 @@ header h4 {
   padding: 20px;
   line-height: 30px;
   color: bisque;
-  background-color: #424242;
+  /* background-color: #424242; */
   
   
 }
@@ -165,9 +165,20 @@ header h4 {
 }
 .js{
   
- width: 50%;
- background-color: red; 
+ width: 70%;
+ background-color: aqua; 
 }
+
+.react{
+  width: 70%;
+ background-color: darkslategray;
+}
+
+.node{
+  
+  width: 50%;
+  background-color: red; 
+ }
 .csharp{
   width: 80%;
   background-color: palevioletred; 
@@ -225,6 +236,12 @@ input{
   border-color: #009688;
   padding: 3px;
   
+}
+.game{
+    color: blue;
+}
+.dr{
+  color: blue;
 }
 
 .contact .container{
