@@ -205,6 +205,9 @@ header h4 {
 .folio p{
   font-size: 0.875em
 }
+.h3{
+   text-align: center;
+}
 .row-halves{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -213,7 +216,7 @@ header h4 {
   -webkit-flex-pack: justify; 
  }
 .row-halves .col{
-  width: 49%;
+  width: 100%;
 }
 .col{
   border: 1px solid #222;
