@@ -358,6 +358,10 @@ form input#name,#email{
   color: #b2b2b2;
 
 }
+.dr{
+  color: white;
+
+}
   
 @media (min-width: 600px){
   .mobile-nav{
